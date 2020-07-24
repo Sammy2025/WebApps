@@ -1,0 +1,54 @@
+
+body,
+html {
+  width: 100%;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  
+}
+
+.image img
+{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	object-fit: cover;
+  	background-size: cover;
+
+  	
+}
+.image h1
+{
+	position: absolute;
+	top: 34.1%;
+    left: 20%;
+    color: white;
+}
+
+hr
+{
+	border-color: #F05F44;
+	border-width: 3px;
+}
+
+.image button
+{
+	position: absolute;
+	top: 63%;
+    left: 44.5%;
+    padding: 1rem 1rem;
+    background-color: #F05F44;
+    color: white;
+    border-radius: 300px;
+}
+
+.image button:hover
+{
+	background-color: #EE4B08;
+	border-color: #F05F44;
+	border-width: 4px;
+}
+
